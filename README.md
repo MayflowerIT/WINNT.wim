@@ -31,4 +31,9 @@ Because it will install completely from the hard drive the installation time is 
 
 Brought to you by Binary Outcast
 
-### 
+### [WinNT32.EXE]( https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/winnt32 )
+- */makelocalsource*	Instructs setup to copy all installation source files to your local hard disk. Use /makelocalsource when installing from a cd to provide installation files when the cd is not available later in the installation.
+
+### [Installing Windows XP from a network. RIS, but not Microsoft]( http://unattendedxp.com/en/articles/installing-windows-xp-from-network/ )
+
+
