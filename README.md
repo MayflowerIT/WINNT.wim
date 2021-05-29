@@ -29,7 +29,7 @@ Because it will install completely from the hard drive the installation time is 
 
 6. reboot and run though text mode and gui setup as normal
 
-Brought to you by Binary Outcast
+Brought to you by [Binary Outcast]( http://binaryoutcast.com/ )
 
 ### [`WinNT32.EXE`]( https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/winnt32 )
 - `/makelocalsource`	Instructs setup to copy all installation source files to your local hard disk. Use /makelocalsource when installing from a cd to provide installation files when the cd is not available later in the installation.
