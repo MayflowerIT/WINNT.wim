@@ -36,4 +36,7 @@ Brought to you by Binary Outcast
 
 ### [Installing Windows XP from a network. RIS, but not Microsoft]( http://unattendedxp.com/en/articles/installing-windows-xp-from-network/ )
 
+### Slipstream updates
+- *WindowsXP-KB936929-SP3-x86-ENU.exe* __/integrate:drive\path__
+
 
