@@ -38,6 +38,8 @@ Brought to you by Binary Outcast
 ### [Installing Windows XP from a network. RIS, but not Microsoft]( http://unattendedxp.com/en/articles/installing-windows-xp-from-network/ )
 We copy the contents of the catalog AMD64 into I386. Now the folder AMD64 is not necessary to us, and we have to delete it. [...] `junction C:\NETBOOT\WINXP\INSTALL\AMD64 C:\NETBOOT\WINXP\INSTALL\I386` [...] As a result, a catalog INSTALL gets a folder AMD64 with the identical contents as in I386, but at the same time the size of the catalog INSTALL stays the same.
 
+...but make sure 5.1-with-5.1 and 5.2-with-5.2...
+
 ### Slipstream updates
 - `WindowsXP-KB936929-SP3-x86-ENU.exe` __/integrate:drive\path__
 
