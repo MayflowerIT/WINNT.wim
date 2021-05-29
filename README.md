@@ -43,4 +43,8 @@ We copy the contents of the catalog AMD64 into I386. Now the folder AMD64 is not
 ### Slipstream updates
 - `WindowsXP-KB936929-SP3-x86-ENU.exe` __/integrate:drive\path__
 
+### [WinNT.SIF]( https://paradice.board-directory.net/t3-winnt-sif-lists-nearly-all-possible-settings-for-unattended )
+### [WinNT.SIF]( https://www.svrops.com/svrops/documents/xpunattend.htm#xpinstall )
 
+## example
+https://archive.org/details/xppro2020
