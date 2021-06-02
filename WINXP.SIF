@@ -15,7 +15,7 @@
     UnattendMode=DefaultHide
     OemPreinstall=Yes
     OEMSkipEula = Yes
-;    Repartition = Yes
+    Repartition = $Repartition
     UnattendSwitch = Yes
     TargetPath=\WINDOWS
     OverwriteOemFilesOnUpgrade=Yes
@@ -26,12 +26,12 @@
     ProfilesDir = "%SystemDrive%\Users"
 
 [UserData]
-    ProductKey=BCKCT-KFRJP-2M88Y-2KBRK-QQRGB
+    ProductKey=$Product Key
     OrgName="Information Services & Technology"
-;    ComputerName=%MACHINENAME%
+    ComputerName=$ComputerName
 
 [Identification]
-;    JoinDomain=%MACHINEDOMAIN%
+    JoinDomain=$JoinDomain
     DoOldStyleDomainJoin=Yes
 
 [Networking]
@@ -46,7 +46,7 @@
     MakeLocalSource = Yes
 
 [RemoteInstall]
-;    Repartition=Yes
+    Repartition=$Repartition
     UseWholeDisk = Yes
 
 [OSChooser]
