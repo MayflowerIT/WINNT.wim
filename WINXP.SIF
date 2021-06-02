@@ -1,0 +1,56 @@
+;SetupMgrTag
+[Data]
+    AutomaticUpdates = 1
+    AutoPartition=1
+    MsDosInitiated=0
+    UnattendedInstall="Yes"
+    UseBIOSToBoot = 1
+    LocalSourceOnCD=1
+    DisableAdminAccountOnDomainJoin = 1
+
+[Unattended]
+    AutoActivate = Yes
+    DUDisable = No
+    ForceHALDetection = Yes
+    UnattendMode=DefaultHide
+    OemPreinstall=Yes
+    OEMSkipEula = Yes
+;    Repartition = Yes
+    UnattendSwitch = Yes
+    TargetPath=\WINDOWS
+    OverwriteOemFilesOnUpgrade=Yes
+
+[GuiUnattended]
+    OEMSkipRegional=1
+    OEMSkipWelcome = 1
+    ProfilesDir = "%SystemDrive%\Users"
+
+[UserData]
+    ProductKey=BCKCT-KFRJP-2M88Y-2KBRK-QQRGB
+    OrgName="Information Services & Technology"
+;    ComputerName=%MACHINENAME%
+
+[Identification]
+;    JoinDomain=%MACHINEDOMAIN%
+    DoOldStyleDomainJoin=Yes
+
+[Networking]
+    InstallDefaultComponents=Yes
+    ProcessPageSections=Yes
+
+[SetupData]
+    OsLoadOptions="/noguiboot /fastdetect"
+    OsLoadOptionsVar="/noexecute=OptOut"
+
+[SetupParams]
+    MakeLocalSource = Yes
+
+[RemoteInstall]
+;    Repartition=Yes
+    UseWholeDisk = Yes
+
+[OSChooser]
+    Description="Windows XP (x64) Setup"
+    Help="This will install Windows Professional in a standard configuration."
+    ImageType=Flat
+
