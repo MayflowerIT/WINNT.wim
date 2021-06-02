@@ -1,6 +1,23 @@
 # WINNT.wim
 The goal of this project is to script the conversion of a Windows XP (or NT5? NT4?) installer ISO to a reusable WIM. Since we can't distribute the ISO, and the ISO is severely limited in utility for any scripted/managed environment, getting a workable WIM needs to be scripted or it'll always be one-off and fragile. 
 
+## Stages
+0. Install Hyper-V
+1. Prepare source files for automation:
+    - Create WINNT.SIF from template using site-specific variables.
+    - unattend.xml
+    - Create a floppy image with WINNT.SIF and AutoUnattend.xml.
+    - Create VM (generation 1) with VHDX, two CD drives, and a floppy drive.
+        - A: Floppy
+        - C: VHDX
+        - D: WinPE
+        - E: WINNT.ISO
+    - Run the VM, wait for it to shut down.
+    - Mount the VHDX
+    - Copy source?
+    - Capture the WIM
+3. Boot WinPE environment (pre-10, which changes something about volumes that [`WINNT32.exe`] can't deal with)
+
 ## notes
 ### [XP to WIM]( https://msfn.org/board/topic/121046-xp-to-wim/?do=findComment&comment=954076 )
 #### Easy WinXP CD Install to WIM Conversion
