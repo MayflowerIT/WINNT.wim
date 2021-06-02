@@ -28,10 +28,10 @@
 [UserData]
     ProductKey=$ProductKey
     OrgName="Information Services & Technology"
-    ComputerName=$ComputerName
+    ComputerName=$MachineName
 
 [Identification]
-    JoinDomain=$JoinDomain
+    JoinDomain=$MachineDomain
     DoOldStyleDomainJoin=Yes
 
 [Networking]
@@ -50,7 +50,7 @@
     UseWholeDisk = Yes
 
 [OSChooser]
-    Description="Windows XP (x64) Setup"
-    Help="This will install Windows Professional in a standard configuration."
+    Description="Windows ($MachineType) Setup"
+    Help="This will install Windows in a standard configuration."
     ImageType=Flat
 
