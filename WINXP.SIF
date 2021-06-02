@@ -26,7 +26,7 @@
     ProfilesDir = "%SystemDrive%\Users"
 
 [UserData]
-    ProductKey=$Product Key
+    ProductKey=$ProductKey
     OrgName="Information Services & Technology"
     ComputerName=$ComputerName
 
